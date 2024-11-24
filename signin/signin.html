@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/555163d5bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="form-name">
+          <h2>Login</h2>
+        </div>
+        <form action="#">
+          <div class="input-container">
+           
+            <div class="email-div">
+              <p>Email</p>
+              <input
+                type="email"
+                placeholder="Type Email here"
+                id="email"
+              /><br />
+              <i class="fa-regular"></i>
+              <span id="email-req"></span>
+            </div>
+           
+            <div class="password-div">
+              <p>Password</p>
+              <input
+                type="password"
+                placeholder="Type Password here"
+                id="password"
+              /><br />
+              <i class="fa-regular"></i>
+              <span id="password-req"></span>
+            </div>
+          </div>
+         
+          <div class="button">
+            <button type="submit" id="btn">Login</button>
+          </div>
+          
+          <div class="footer">
+            <p>Don't have an account ? <a href="/index.html"> Sign up!</a></p>
+          </div>
+         
+        </form>
+      </div>
+    </div>
+
+    <script src="/signin/signin.js"></script>
+  </body>
+</html>

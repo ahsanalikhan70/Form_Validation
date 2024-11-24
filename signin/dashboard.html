@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <button id="logout" onclick="logout()">Logout</button>
+    <script>
+
+       function logout(){
+      
+                    setTimeout(() => {
+        swal({
+            title: "Good job!",
+            text: "Logout succesfully",
+            icon: "success",
+          });
+
+        }, 3000);
+        window.location.href = 'signin.html';
+
+       }
+     
+ 
+    </script>
+</body>
+</html>

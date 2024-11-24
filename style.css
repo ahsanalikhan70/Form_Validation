@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+body {
+  background-image: url("blob-scatter-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  width: 400px;
+  background-color: rgb(155, 39, 39);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.name-div {
+  margin-bottom: 20px;
+  position: relative;
+}
+i{
+   position: absolute;
+   top: 32px;
+   left: 370px;
+   font-size: 23px;
+   display: none;
+  }
+  
+.fa-circle-check{
+    color: green;
+  }
+.fa-circle-xmark{
+   color : #D36016;
+}
+
+
+.email-div {
+  margin-bottom: 20px;
+  position: relative;
+
+}
+.password-div {
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+input {
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+button {
+  height: 40px;
+  width: 102%;
+  font-size: 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: #931f1f;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #8c1e1e;
+}
+span {
+  color: rgb(236, 133, 6);
+}
+p {
+  padding: 2px;
+  font-size: 17px;
+  color: rgb(255, 253, 253);
+  font-weight: bold;
+}
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+.footer a {
+  color: rgb(255, 132, 0);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: rgb(255, 132, 0);
+  text-decoration: underline;
+}
